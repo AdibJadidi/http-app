@@ -6,7 +6,7 @@ import http from "../../services/httpService";
 import { addNewComment } from "./../../services/addNewCommentService";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
-function NewComment(props) {
+function NewComment() {
   const [newComment, setNewComment] = useState({
     name: "",
     email: "",
