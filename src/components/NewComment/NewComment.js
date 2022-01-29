@@ -1,6 +1,5 @@
 import axios from "axios";
-import React from "react";
-import { useState } from "react/cjs/react.development";
+import React, { useState } from "react";
 import "./newcomment.css";
 import http from "../../services/httpService";
 import { addNewComment } from "./../../services/addNewCommentService";
